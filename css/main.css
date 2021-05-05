@@ -1,0 +1,90 @@
+/* Header Style */
+
+.h1{
+    font-family:'Times New Roman', Times, serif;
+    padding-left:50px;
+    
+}
+.header{
+    max-height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.logo-space{
+    background-color: black;
+}
+
+.heading-space{
+    background-color: black;
+}
+
+.menu{
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Main Image Style */
+.feature-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.feature-image p{
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 50%;
+    left: 35%;
+}
+
+/* Content Style */
+.content{
+    display:block;
+    margin:0 auto;
+   
+}
+
+.bar{
+    background-color: rgb(246, 246, 246);
+    height: 30px;
+    border: 1px solid rgb(110, 110, 110);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.perform-preview img{
+    max-height: 150px;
+}
+
+.perform-deets{
+    width: 400px;
+}
+
+.perform-deets p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.perform-more{
+    width: 125px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Footer Style */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
